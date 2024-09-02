@@ -1,0 +1,8 @@
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/VideoEditor.dir
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/test.dir
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/edit_cache.dir
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/rebuild_cache.dir
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/list_install_components.dir
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/install.dir
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/install/local.dir
+/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles/install/strip.dir

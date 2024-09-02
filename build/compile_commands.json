@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/g++ -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -std=gnu++17 -o CMakeFiles/VideoEditor.dir/src/display.cpp.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/display.cpp\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/display.cpp",
+  "output": "CMakeFiles/VideoEditor.dir/src/display.cpp.o"
+},
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/gcc -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -o CMakeFiles/VideoEditor.dir/src/glad.c.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/glad.c\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/glad.c",
+  "output": "CMakeFiles/VideoEditor.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/g++ -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -std=gnu++17 -o CMakeFiles/VideoEditor.dir/src/main.cpp.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/main.cpp\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/main.cpp",
+  "output": "CMakeFiles/VideoEditor.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/g++ -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -std=gnu++17 -o CMakeFiles/VideoEditor.dir/src/renderer.cpp.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/renderer.cpp\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/renderer.cpp",
+  "output": "CMakeFiles/VideoEditor.dir/src/renderer.cpp.o"
+},
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/g++ -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -std=gnu++17 -o CMakeFiles/VideoEditor.dir/src/shader_class.cpp.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/shader_class.cpp\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/shader_class.cpp",
+  "output": "CMakeFiles/VideoEditor.dir/src/shader_class.cpp.o"
+},
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/gcc -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -o CMakeFiles/VideoEditor.dir/src/stb_image.c.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/stb_image.c\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/stb_image.c",
+  "output": "CMakeFiles/VideoEditor.dir/src/stb_image.c.o"
+},
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/g++ -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -std=gnu++17 -o CMakeFiles/VideoEditor.dir/src/texture.cpp.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/texture.cpp\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/texture.cpp",
+  "output": "CMakeFiles/VideoEditor.dir/src/texture.cpp.o"
+},
+{
+  "directory": "/home/ismaildrs/Documents/Projects/Video Editor/build",
+  "command": "/usr/bin/g++ -I\"/home/ismaildrs/Documents/Projects/Video Editor/include\" -g -std=gnu++17 -o CMakeFiles/VideoEditor.dir/src/video_player.cpp.o -c \"/home/ismaildrs/Documents/Projects/Video Editor/src/video_player.cpp\"",
+  "file": "/home/ismaildrs/Documents/Projects/Video Editor/src/video_player.cpp",
+  "output": "CMakeFiles/VideoEditor.dir/src/video_player.cpp.o"
+}
+]
