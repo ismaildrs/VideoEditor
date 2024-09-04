@@ -81,12 +81,12 @@ clean: CMakeFiles/VideoEditor.dir/clean
 CMakeFiles/VideoEditor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target VideoEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target VideoEditor"
 .PHONY : CMakeFiles/VideoEditor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/VideoEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles" 9
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles" 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/VideoEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ismaildrs/Documents/Projects/Video Editor/build/CMakeFiles" 0
 .PHONY : CMakeFiles/VideoEditor.dir/rule
