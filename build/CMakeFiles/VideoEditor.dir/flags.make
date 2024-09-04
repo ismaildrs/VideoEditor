@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/ismaildrs/Documents/Projects/Video Editor/include"
+C_INCLUDES = -I"/home/ismaildrs/Documents/Projects/Video Editor/include" -I"/home/ismaildrs/Documents/Projects/Video Editor/lib/imgui" -I"/home/ismaildrs/Documents/Projects/Video Editor/lib/imgui/backends"
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/ismaildrs/Documents/Projects/Video Editor/include"
+CXX_INCLUDES = -I"/home/ismaildrs/Documents/Projects/Video Editor/include" -I"/home/ismaildrs/Documents/Projects/Video Editor/lib/imgui" -I"/home/ismaildrs/Documents/Projects/Video Editor/lib/imgui/backends"
 
 CXX_FLAGS = -std=gnu++17
 

@@ -1,7 +1,8 @@
 CMakeFiles/VideoEditor.dir/src/video_player.cpp.o: \
  /home/ismaildrs/Documents/Projects/Video\ Editor/src/video_player.cpp \
  /usr/include/stdc-predef.h \
- /home/ismaildrs/Documents/Projects/Video\ Editor/src/../include/video_player.hpp \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/video_player.hpp \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/video_renderer.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -157,16 +158,16 @@ CMakeFiles/VideoEditor.dir/src/video_player.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/ismaildrs/Documents/Projects/Video\ Editor/src/../include/constants.hpp \
- /home/ismaildrs/Documents/Projects/Video\ Editor/src/../include/shader_class.hpp \
- /home/ismaildrs/Documents/Projects/Video\ Editor/src/../include/glad/glad.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/constants.hpp \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/shader_class.hpp \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/glad/glad.h \
  /home/ismaildrs/Documents/Projects/Video\ Editor/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
- /home/ismaildrs/Documents/Projects/Video\ Editor/src/../include/texture.hpp \
- /home/ismaildrs/Documents/Projects/Video\ Editor/src/../include/stb_image.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/texture.hpp \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/stb_image.h \
  /usr/include/c++/13/stdlib.h /usr/include/GLFW/glfw3.h \
  /usr/include/x86_64-linux-gnu/libavformat/avformat.h \
  /usr/include/x86_64-linux-gnu/libavcodec/codec_par.h \
@@ -254,4 +255,9 @@ CMakeFiles/VideoEditor.dir/src/video_player.cpp.o: \
  /usr/include/x86_64-linux-gnu/libswscale/version_major.h \
  /usr/include/x86_64-linux-gnu/libswscale/version.h \
  /usr/include/x86_64-linux-gnu/libavutil/imgutils.h \
- /usr/include/x86_64-linux-gnu/libavutil/pixdesc.h
+ /usr/include/x86_64-linux-gnu/libavutil/pixdesc.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/imgui.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h /usr/include/assert.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/backends/imgui_impl_glfw.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/backends/imgui_impl_opengl3.h
