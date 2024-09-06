@@ -1,55 +1,47 @@
-#ifndef VIDEO_PLAYER_HPP
-#define VIDEO_PLAYER_HPP
+#ifndef VIDEO_CONTROLLER_HPP
+#define VIDEO_CONTROLLER_HPP
 
-#include <string>
-#include <iostream>
-#include <fstream>
-#include "constants.hpp"
-#include "shader_class.hpp"
-#include "texture.hpp"
-#include "glad/glad.h"
+#include "video_renderer.hpp"
 #include <GLFW/glfw3.h>
+#include "imgui.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
 
-extern "C" {
-    #include <libavformat/avformat.h>
-    #include <libavcodec/avcodec.h>
-    #include <libswscale/swscale.h>
-    #include <libavutil/imgutils.h>
-}
-
-class VideoPlayer {
-public:
-    VideoPlayer(const std::string& filename, unsigned int width, unsigned int height, const char* name);
-    ~VideoPlayer();
-
-    bool windowShouldClose();
-    void update();
-
-    int getWidth();
-    int getHeight();
-
-private:
-    void readFrame();
-    void drawTexture();
-    void setGLParameters();
-    void initDisplay(unsigned int width, unsigned int height, const char* name);
-    void closeDisplay();
-    void initFFmpeg(const std::string& filename);
-    void cleanup();
-
-    AVFormatContext* formatContext = nullptr;
-    AVCodecContext* codecContext = nullptr;
-    AVFrame* frame = nullptr;
-    AVPacket* packet = nullptr;
-    SwsContext* swsContext = nullptr;
-    int videoStreamIndex = -1;
-    AVPixelFormat pixelFormat = AV_PIX_FMT_RGB24;
-    int width = 0, height = 0;
-    GLFWwindow* window = nullptr;
-    unsigned char* buffer = nullptr;
-    Shader* shader=nullptr;
-    Texture* texture=nullptr;
-    unsigned int VAO, VBO, EBO;
+struct VideoInfos{
+    unsigned int npos_x;
+    unsigned int npos_y;
+    VideoRenderer* video;
 };
 
-#endif // VIDEO_PLAYER_HPP
+class VideoPlayer{
+public:
+    VideoPlayer(unsigned int width, unsigned int height); //
+
+    bool windowShouldClose();
+
+    void setFilePath(const char* filePath);
+
+    int addVideo(std::string& filePath); // Add a video to the queue
+    int removeVideo(unsigned int videoId); // Remove a video from the queue
+    void update();
+    int videoPause(unsigned int videoId);
+    int videoReplay(unsigned int videoId);
+
+private:
+
+    void setupComponents();
+    void closeDisplay();
+
+
+
+    VideoInfos videoCont;
+    unsigned int window_w;
+    unsigned int window_h;
+
+    unsigned int textureId;
+
+    int play;
+};
+
+
+#endif

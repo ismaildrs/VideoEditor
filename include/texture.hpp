@@ -11,11 +11,16 @@ class Texture {
 public:
     Texture();
     ~Texture();
+
+    unsigned int getTextureId(){
+        return m_texture;
+    }
+
     void setTexture(const unsigned char* data, int width, int height);
     void bind(unsigned int unit = 0) const;
 
-private:
     unsigned int m_texture = 0; // Pointer to dynamically allocated array of texture IDs
+private:
 };
 
 #endif // TEXTURE_HPP
