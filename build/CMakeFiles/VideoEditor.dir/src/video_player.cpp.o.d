@@ -158,13 +158,33 @@ CMakeFiles/VideoEditor.dir/src/video_player.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/include/show_error.hpp \
+ /usr/include/c++/13/queue /usr/include/c++/13/deque \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/stl_queue.h /usr/include/c++/13/mutex \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/13/limits /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/imgui.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/assert.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/backends/imgui_impl_glfw.h \
+ /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/backends/imgui_impl_opengl3.h \
  /home/ismaildrs/Documents/Projects/Video\ Editor/include/constants.hpp \
  /home/ismaildrs/Documents/Projects/Video\ Editor/include/shader_class.hpp \
  /home/ismaildrs/Documents/Projects/Video\ Editor/include/glad/glad.h \
  /home/ismaildrs/Documents/Projects/Video\ Editor/include/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
  /home/ismaildrs/Documents/Projects/Video\ Editor/include/texture.hpp \
  /home/ismaildrs/Documents/Projects/Video\ Editor/include/stb_image.h \
@@ -191,8 +211,7 @@ CMakeFiles/VideoEditor.dir/src/video_player.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/limits \
- /usr/include/c++/13/tr1/gamma.tcc \
+ /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/tr1/gamma.tcc \
  /usr/include/c++/13/tr1/special_function_util.h \
  /usr/include/c++/13/tr1/bessel_function.tcc \
  /usr/include/c++/13/tr1/beta_function.tcc \
@@ -203,8 +222,7 @@ CMakeFiles/VideoEditor.dir/src/video_player.cpp.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/string.h \
- /usr/include/strings.h \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc \
  /usr/include/x86_64-linux-gnu/libavutil/attributes.h \
  /usr/include/x86_64-linux-gnu/libavutil/error.h \
  /usr/include/x86_64-linux-gnu/libavutil/macros.h \
@@ -255,9 +273,4 @@ CMakeFiles/VideoEditor.dir/src/video_player.cpp.o: \
  /usr/include/x86_64-linux-gnu/libswscale/version_major.h \
  /usr/include/x86_64-linux-gnu/libswscale/version.h \
  /usr/include/x86_64-linux-gnu/libavutil/imgutils.h \
- /usr/include/x86_64-linux-gnu/libavutil/pixdesc.h \
- /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/imgui.h \
- /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/imconfig.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h /usr/include/assert.h \
- /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/backends/imgui_impl_glfw.h \
- /home/ismaildrs/Documents/Projects/Video\ Editor/lib/imgui/backends/imgui_impl_opengl3.h
+ /usr/include/x86_64-linux-gnu/libavutil/pixdesc.h

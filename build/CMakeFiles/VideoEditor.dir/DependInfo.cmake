@@ -23,9 +23,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ismaildrs/Documents/Projects/Video Editor/src/main.cpp" "CMakeFiles/VideoEditor.dir/src/main.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/main.cpp.o.d"
   "/home/ismaildrs/Documents/Projects/Video Editor/src/renderer.cpp" "CMakeFiles/VideoEditor.dir/src/renderer.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/renderer.cpp.o.d"
   "/home/ismaildrs/Documents/Projects/Video Editor/src/shader_class.cpp" "CMakeFiles/VideoEditor.dir/src/shader_class.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/shader_class.cpp.o.d"
+  "/home/ismaildrs/Documents/Projects/Video Editor/src/show_error.cpp" "CMakeFiles/VideoEditor.dir/src/show_error.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/show_error.cpp.o.d"
   "/home/ismaildrs/Documents/Projects/Video Editor/src/texture.cpp" "CMakeFiles/VideoEditor.dir/src/texture.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/texture.cpp.o.d"
+  "/home/ismaildrs/Documents/Projects/Video Editor/src/timeline.cpp" "CMakeFiles/VideoEditor.dir/src/timeline.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/timeline.cpp.o.d"
+  "/home/ismaildrs/Documents/Projects/Video Editor/src/track.cpp" "CMakeFiles/VideoEditor.dir/src/track.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/track.cpp.o.d"
+  "/home/ismaildrs/Documents/Projects/Video Editor/src/vid_timeline.cpp" "CMakeFiles/VideoEditor.dir/src/vid_timeline.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/vid_timeline.cpp.o.d"
   "/home/ismaildrs/Documents/Projects/Video Editor/src/video_player.cpp" "CMakeFiles/VideoEditor.dir/src/video_player.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/video_player.cpp.o.d"
   "/home/ismaildrs/Documents/Projects/Video Editor/src/video_renderer.cpp" "CMakeFiles/VideoEditor.dir/src/video_renderer.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/video_renderer.cpp.o.d"
+  "/home/ismaildrs/Documents/Projects/Video Editor/src/video_timeline.cpp" "CMakeFiles/VideoEditor.dir/src/video_timeline.cpp.o" "gcc" "CMakeFiles/VideoEditor.dir/src/video_timeline.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -465,6 +465,30 @@ src/shader_class.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/shader_class.cpp.s
 .PHONY : src/shader_class.cpp.s
 
+src/show_error.o: src/show_error.cpp.o
+.PHONY : src/show_error.o
+
+# target to build an object file
+src/show_error.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/show_error.cpp.o
+.PHONY : src/show_error.cpp.o
+
+src/show_error.i: src/show_error.cpp.i
+.PHONY : src/show_error.i
+
+# target to preprocess a source file
+src/show_error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/show_error.cpp.i
+.PHONY : src/show_error.cpp.i
+
+src/show_error.s: src/show_error.cpp.s
+.PHONY : src/show_error.s
+
+# target to generate assembly for a file
+src/show_error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/show_error.cpp.s
+.PHONY : src/show_error.cpp.s
+
 src/stb_image.o: src/stb_image.c.o
 .PHONY : src/stb_image.o
 
@@ -513,6 +537,78 @@ src/texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/texture.cpp.s
 .PHONY : src/texture.cpp.s
 
+src/timeline.o: src/timeline.cpp.o
+.PHONY : src/timeline.o
+
+# target to build an object file
+src/timeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/timeline.cpp.o
+.PHONY : src/timeline.cpp.o
+
+src/timeline.i: src/timeline.cpp.i
+.PHONY : src/timeline.i
+
+# target to preprocess a source file
+src/timeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/timeline.cpp.i
+.PHONY : src/timeline.cpp.i
+
+src/timeline.s: src/timeline.cpp.s
+.PHONY : src/timeline.s
+
+# target to generate assembly for a file
+src/timeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/timeline.cpp.s
+.PHONY : src/timeline.cpp.s
+
+src/track.o: src/track.cpp.o
+.PHONY : src/track.o
+
+# target to build an object file
+src/track.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/track.cpp.o
+.PHONY : src/track.cpp.o
+
+src/track.i: src/track.cpp.i
+.PHONY : src/track.i
+
+# target to preprocess a source file
+src/track.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/track.cpp.i
+.PHONY : src/track.cpp.i
+
+src/track.s: src/track.cpp.s
+.PHONY : src/track.s
+
+# target to generate assembly for a file
+src/track.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/track.cpp.s
+.PHONY : src/track.cpp.s
+
+src/vid_timeline.o: src/vid_timeline.cpp.o
+.PHONY : src/vid_timeline.o
+
+# target to build an object file
+src/vid_timeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/vid_timeline.cpp.o
+.PHONY : src/vid_timeline.cpp.o
+
+src/vid_timeline.i: src/vid_timeline.cpp.i
+.PHONY : src/vid_timeline.i
+
+# target to preprocess a source file
+src/vid_timeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/vid_timeline.cpp.i
+.PHONY : src/vid_timeline.cpp.i
+
+src/vid_timeline.s: src/vid_timeline.cpp.s
+.PHONY : src/vid_timeline.s
+
+# target to generate assembly for a file
+src/vid_timeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/vid_timeline.cpp.s
+.PHONY : src/vid_timeline.cpp.s
+
 src/video_player.o: src/video_player.cpp.o
 .PHONY : src/video_player.o
 
@@ -560,6 +656,30 @@ src/video_renderer.s: src/video_renderer.cpp.s
 src/video_renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/video_renderer.cpp.s
 .PHONY : src/video_renderer.cpp.s
+
+src/video_timeline.o: src/video_timeline.cpp.o
+.PHONY : src/video_timeline.o
+
+# target to build an object file
+src/video_timeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/video_timeline.cpp.o
+.PHONY : src/video_timeline.cpp.o
+
+src/video_timeline.i: src/video_timeline.cpp.i
+.PHONY : src/video_timeline.i
+
+# target to preprocess a source file
+src/video_timeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/video_timeline.cpp.i
+.PHONY : src/video_timeline.cpp.i
+
+src/video_timeline.s: src/video_timeline.cpp.s
+.PHONY : src/video_timeline.s
+
+# target to generate assembly for a file
+src/video_timeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VideoEditor.dir/build.make CMakeFiles/VideoEditor.dir/src/video_timeline.cpp.s
+.PHONY : src/video_timeline.cpp.s
 
 # Help Target
 help:
@@ -612,18 +732,33 @@ help:
 	@echo "... src/shader_class.o"
 	@echo "... src/shader_class.i"
 	@echo "... src/shader_class.s"
+	@echo "... src/show_error.o"
+	@echo "... src/show_error.i"
+	@echo "... src/show_error.s"
 	@echo "... src/stb_image.o"
 	@echo "... src/stb_image.i"
 	@echo "... src/stb_image.s"
 	@echo "... src/texture.o"
 	@echo "... src/texture.i"
 	@echo "... src/texture.s"
+	@echo "... src/timeline.o"
+	@echo "... src/timeline.i"
+	@echo "... src/timeline.s"
+	@echo "... src/track.o"
+	@echo "... src/track.i"
+	@echo "... src/track.s"
+	@echo "... src/vid_timeline.o"
+	@echo "... src/vid_timeline.i"
+	@echo "... src/vid_timeline.s"
 	@echo "... src/video_player.o"
 	@echo "... src/video_player.i"
 	@echo "... src/video_player.s"
 	@echo "... src/video_renderer.o"
 	@echo "... src/video_renderer.i"
 	@echo "... src/video_renderer.s"
+	@echo "... src/video_timeline.o"
+	@echo "... src/video_timeline.i"
+	@echo "... src/video_timeline.s"
 .PHONY : help
 
 
